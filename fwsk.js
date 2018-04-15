@@ -319,7 +319,7 @@ var meat = [
     },
     {
            'url': 'pznunaajz', 
-           'desc': '烤鸡全脚', 
+           'desc': '烤鸡全腿', 
            'sku': 'A017', 
            'price': 6, 
            'qty': 0
@@ -332,7 +332,7 @@ var liquid = [
     
 
     {
-           'url': 'cfautfomn/1664.jpg', 
+           'url': 'n4bc9sf17',
            'desc': '1664啤酒', 
            'sku': 'A001', 
            'price': 20, 
@@ -427,7 +427,7 @@ var vegi = [
            'url': 'l643ioe4v', 
            'desc': '白冦秋葵', 
            'sku': 'A022', 
-           'price': 5, 
+           'price': 20,
            'qty': 0
     },
 
@@ -518,6 +518,71 @@ var vegi = [
             
 ];
 
+var drink = [	{
+    'url': 'mwv1z67mj', 
+    'desc': '可口可乐（小）', 
+    'sku': 'B001', 
+    'price': 5, 
+    'qty': 0
+},
+{
+    'url': '56tde4mbv', 
+    'desc': '可口可乐（大）', 
+    'sku': 'B002', 
+    'price': 10, 
+    'qty': 0
+},
+{
+    'url': '9sphmiafv', 
+    'desc': '怡宝', 
+    'sku': 'B003', 
+    'price': 3, 
+    'qty': 0
+},
+{
+    'url': 'wu62s9piz', 
+    'desc': '椰子汁', 
+    'sku': 'B004', 
+    'price': 5, 
+    'qty': 0
+},
+{
+    'url': 'vf4i3jgq3', 
+    'desc': '沙示', 
+    'sku': 'B005', 
+    'price': 10, 
+    'qty': 0
+},
+{
+    'url': 'jd949ds23', 
+    'desc': '王老吉（小）', 
+    'sku': 'B006', 
+    'price': 5, 
+    'qty': 0
+},
+{
+    'url': 'eelluugjf', 
+    'desc': '王老吉（大）', 
+    'sku': 'B007', 
+    'price': 15, 
+    'qty': 0
+},
+{
+    'url': 'hk67lmjwb', 
+    'desc': '菊花蜜', 
+    'sku': 'B008', 
+    'price': 10, 
+    'qty': 0
+},
+{
+    'url': '6ymc91l4b', 
+    'desc': '雪碧', 
+    'sku': 'B009', 
+    'price': 10, 
+    'qty': 0
+},
+]
+
 //以下忽略
 var defaultk = gd.concat(defaultk);
 var myall = {
@@ -526,5 +591,7 @@ var myall = {
 	'marine' : marine,
 	'meat' : meat,
 	'vegi' : vegi,
-	'liquid' : liquid
+	'liquid' : liquid,
+	'drink' : drink
+	 
 }
