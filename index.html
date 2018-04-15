@@ -1,31 +1,15 @@
 <!DOCTYPE html>
 <html>
-<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no">
 <title>丰味烧烤（阳光城市广场)</title>
-
-
 <link rel="stylesheet" href="//unpkg.com/bootstrap/dist/css/bootstrap.min.css" />
 <link rel="stylesheet" href="//unpkg.com/font-awesome@4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="mymain.css"/>
-<link rel="stylesheet" href="main.css"/>
-
-
-<script src="jquery.min.js"></script>
-<script src="jquery-ui.min.js"></script>
-<script src="vue.min.js"></script>
-<script src="vue-select.js"></script>
-<script src="polyfill.min.js"></script>
-<script src="bootstrap-vue.js"></script>
-<script src="vue-toasted.min.js"></script>
-<script src="vue-cookies.min.js"></script>
-<script src="flyto.js"></script>
-
+<link rel="stylesheet" href="//storelink.000webhostapp.com/main.css"/>
+<link rel="stylesheet" href="//storelink.000webhostapp.com/mymain.css"/>
 <script src="fwsk.js"></script>
-<script src="main.js"></script>
-
+<script src="//unpkg.com/vue/dist/vue.min.js"></script>
 </head>
 <body>
 	<script type="text/x-template" id="modal-template">
@@ -126,7 +110,7 @@
 				</h4>
 				
 				<div><img class="file-image payCode"
-					src="https://wmj001cn.github.io/storelink/dongs%20wechat%20receive%20qr.jpg" style="height: 180px; width: 180px; opacity: 1"></div>
+					src="https://github.com/wmj001cn/storelink/blob/master/dongs%20wechat%20receive%20qr.jpg?raw=true" style="height: 180px; width: 180px; opacity: 1"></div>
 				<div>
 				<button @click="submit">
 					<span v-show="!receiveClass"> 确认已支付 </span> 
@@ -134,9 +118,9 @@
 					</span>
 				</button>
 				<button @click="hasProblem">遇到问题</button>
-				<hr/>	
+				<hr/>
 				<p>加我为好友<p>
-				<img class="" src="https://wmj001cn.github.io/storelink/dongs%20wechat%20receive%20qr.jpg" style="height: 100px; width: 100px; opacity: 1"></div>
+				<img class="" src="https://s7.postimg.org/9y8v7gmyj/image.jpg" style="height: 100px; width: 100px; opacity: 1"></div>
 			</div>
 		   </div>
 	    </div>
@@ -146,7 +130,7 @@
 				<div class="container-fluid mylist">
 					<div v-for="item in items" class="row product items" v-bind:class="{ active: isActive }" @mouseenter="changeClass">
 						<div class="col-4 " style="padding: 0; margin: 0">
-							
+							<img :src="toUrl(item.url)" class="product-image" style="width: 124.328px; height: 72px" alt="暂无图片" />
 						</div>
 						<div class="col-4 product-desc">
 							<p>{{item.desc}}</p>
@@ -181,6 +165,7 @@
 				<span class="dummy">{{dummy}} </span>
 			</div>
 		</div>
+		</transition>
 		<div class="bottom">
 			<div class="container-fluid">
 				 <div class="row">
@@ -200,4 +185,14 @@
 
 	</div>
 </body>
+<script src="//unpkg.com/jquery@3.2.1/dist/jquery.min.js"></script>
+<script src="//code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+
+<script src="//unpkg.com/vue-select@latest"></script>
+<script src="//unpkg.com/babel-polyfill@latest/dist/polyfill.min.js"></script>
+<script src="//unpkg.com/bootstrap-vue@latest/dist/bootstrap-vue.js"></script>
+<script src="//unpkg.com/vue-toasted"></script>
+<script src="vue-cookies.min.js"></script>
+<script src="flyto.js"></script>
+<script src="main.js"></script>
 </html>
