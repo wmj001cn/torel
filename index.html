@@ -6,8 +6,8 @@
 <title>丰味烧烤（阳光城市广场)</title>
 <link rel="stylesheet" href="//unpkg.com/bootstrap/dist/css/bootstrap.min.css" />
 <link rel="stylesheet" href="//unpkg.com/font-awesome@4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="//storelink.000webhostapp.com/main.css"/>
-<link rel="stylesheet" href="//storelink.000webhostapp.com/mymain.css"/>
+<link rel="stylesheet" href="main.css"/>
+<link rel="stylesheet" href="mymain.css"/>
 <script src="fwsk.js"></script>
 <script src="//unpkg.com/vue/dist/vue.min.js"></script>
 </head>
@@ -70,6 +70,7 @@
     					<li @click="goCat('meat')" :class="{ active: active_el == 'meat'}">肉食</li>
     					<li @click="goCat('marine')" :class="{ active: active_el == 'marine'}">水产</li>
     					<li @click="goCat('liquid')" :class="{ active: active_el == 'liquid'}">酒水</li>
+						<li @click="goCat('drink')" :class="{ active: active_el == 'drink'}">酒水</li>
     				</ul>
 				</div>
 			</div>
