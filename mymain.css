@@ -1,0 +1,118 @@
+html, body {
+	top: 0;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	
+}
+
+.app {
+	
+}
+.top {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 35.63px;
+	background: yellow;
+	z-index: 999995;
+}
+
+.border-left {
+	border-right: 1px solid grey!important;	
+}
+
+.bottom {
+	position: fixed;
+	bottom: 0;
+	
+	width: 100%;
+	height: 35.63px;
+	background: grey;
+	z-index: 999997;
+}
+
+#mask, #mask2 {
+	width: 100%;
+    display: none;
+    position: fixed;
+    height: 100%;
+    top: 35.63px;
+    left: 0;
+    z-index: 999996;
+    background-color: #303330;
+    opacity: 0.5;
+}
+
+.order-detail {
+	position: fixed;
+	bottom: 35.63px;
+	width: 100%;
+
+	color: #504b4b;
+	z-index: 999999;
+	background-color: white;
+}
+
+.table-fixed {
+   width: 100%;
+  background-color: #f3f3f3;
+}
+.table-fixed tbody {
+  	max-height: 600px;
+  overflow-y: auto;
+  width: 100%;
+}
+.table-fixed thead, .table-fixed tbody{
+  display: block;
+}
+/* .table-fixed tbody td {
+  float: left;
+}
+.table-fixed thead tr th {
+  float: left;
+  background-color: #f39c12;
+  border-color: #e67e22;
+} */
+
+.middle {
+	padding-top:  35.63px;
+	padding-bottom: 35.63px;
+}
+
+.container-fluid {
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+.btn-full-width {
+	width: 100%;
+}
+
+.bottom .col {
+	padding: 0px;
+}
+.bottom button{
+	font-weight: bold;
+}
+
+
+.cate ul li {
+	margin: 20px;
+}
+.cate {
+	position: fixed;
+	right: 0;
+	top:35.63px;
+	width: 30%;
+	height: 100%;
+	background-color: #ecd060;
+    z-index: 999999;
+    color: #black;
+    font-size: 1.3em;
+}
+
+.second-cat {
+	padding-left: 50px;
+}
