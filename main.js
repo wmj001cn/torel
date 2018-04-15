@@ -318,7 +318,7 @@ var app = new Vue({
                 if (key == "") {
                     return null;
                 }
-                return "https://s14.postimg.org/" + key + "/image.jpg";
+                return merchantCode + "/" + key + ".jpg";
             },
             sumByKey: function(object) {
                     var sum = 0;

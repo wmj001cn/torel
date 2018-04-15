@@ -595,3 +595,6 @@ var myall = {
 	'drink' : drink
 	 
 }
+
+var merchantCode = "fwsk";
+
