@@ -282,7 +282,7 @@ var app = new Vue({
             this.showCart = false
         },
         toUrl: function(key) {
-            return "images/menu_item/" + key + ".jpg"
+            return "https://wmj001cn.github.io/torel/images/menu_item/" + key + ".jpg"
         },
         
         getTotal:function(object){
